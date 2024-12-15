@@ -43,7 +43,7 @@ function App() {
           return (
             <li>
               <span>{objFromMoneyArr.banknote}</span>
-              <span>{objFromMoneyArr.nominal}</span>
+              {/* <span>{objFromMoneyArr.nominal}</span> */}
               <span>{objFromMoneyArr.number}</span>
             </li>
           )
